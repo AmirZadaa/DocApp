@@ -8,7 +8,7 @@ import { doctorsData, availableTimings } from "../../../assets/data";
 import BookingSlots from "./_components/BookingSlots";
 import { Button } from "../../../components/ui/button";
 
-export default function page() {
+export default function Page() {
   const { doctor } = useParams();
   const doctorData = doctorsData.find((obj) => doctor == obj.slug);
   const availableTiming = availableTimings.find((obj) => doctor == obj.slug);

@@ -32,24 +32,11 @@ export default function CheckoutCard({review,fee,name,profileImage,address}) {
           <span><span className="font-semibold text-foreground">Date</span>16 Nov 2019</span>
           <span ><span className="text-foreground font-semibold ms-2">Time</span> 10:00 Am</span>
         </div>
-        <div className="space-y-4 mt-10 px-4 text-[14px] font-semibold">
-          <div className="flex justify-between">
+        <div className="space-y-4 mt-10 px-4 py-4 text-[14px] font-semibold">
+          <div className="flex justify-between  text-xl">
             <div>Consulting Fee</div>
-            <div>$100</div>
+            <div className="text-primary">${fee}</div>
           </div>
-          <div className="flex justify-between">
-            <div>Booking Fee</div>
-            <div>$10</div>
-          </div>
-          <div className="flex justify-between">
-            <div>Video Call</div>
-            <div>$100</div>
-          </div>
-          <hr />
-        </div>
-        <div className="flex justify-between mt-2 px-4 py-2">
-            <div className="font-bold">Total</div>
-            <div className="text-primary">$100</div>
         </div>
       </div>
   );

@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex justify-between px-10 py-4 max-md:flex-col max-lg:gap-2 mx-auto">
-        <div>2023-24 themeforest powered by pixelstrap</div>
+        <div>2023-25  powered by BerryCare</div>
         <div >
           <Image 
             src={footerPic} 

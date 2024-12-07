@@ -21,7 +21,7 @@ import {
 
 export const navLinks = [
   {
-    name: "Home",
+    name: "Doctors",
     link: "/",
   },
   {

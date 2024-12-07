@@ -9,7 +9,7 @@ import {
   BreadcrumbSeparator,
 } from "../../components/ui/breadcrumb";
 
-export default  function SuccessgHeader() {
+export default  function SuccessHeader() {
   return (
     <div name="bg-secondary space-y-4 p-4 text-center">
         <h1 className="text-2xl font-bold text-center bg-secondary">Booking Success</h1>
