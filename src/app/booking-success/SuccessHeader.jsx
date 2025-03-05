@@ -16,7 +16,7 @@ export default  function SuccessHeader() {
       <Breadcrumb className="bg-secondary space-y-4 p-4 text-center flex justify-center">
         <BreadcrumbList>
           <BreadcrumbItem>
-            <BreadcrumbLink href="/doctor-list">Home</BreadcrumbLink>
+            <BreadcrumbLink href="/">Home</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>

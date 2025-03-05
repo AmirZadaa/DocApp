@@ -15,7 +15,7 @@ const center = {
 export default function Map() {
   
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "AIzaSyCgZf75OMIgQbCJJZJ1w2j9u4EGucqMkPo",
+    googleMapsApiKey: "AIzaSyAstoyBSzNks1q-0dH5tpyHLT1YFmByW04",
     libraries: ['places'], 
   });
 

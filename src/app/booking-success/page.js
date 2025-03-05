@@ -1,10 +1,10 @@
 'use client'
-import React from 'react'
+import React, { Suspense } from 'react'
 import { Check } from 'lucide-react'
 import SuccessHeader from './SuccessHeader'
 import Footer from '../_components/Footer'
 import { useSearchParams } from 'next/navigation'
-export default function Page() {
+ function BookingSuccess() {
   const searchParams = useSearchParams()
   const doctorName = searchParams.get('doctorName')
   return (
@@ -18,5 +18,14 @@ export default function Page() {
       </div>
       <Footer/>
     </>
+  )
+}
+
+
+export default function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <BookingSuccess />
+    </Suspense>
   )
 }
